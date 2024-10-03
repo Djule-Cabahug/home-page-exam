@@ -11,6 +11,7 @@ body {
 #navbar {
     position: fixed;
     top: 0;
+    z-index: 5;
 }
 
 #hero {
@@ -24,5 +25,25 @@ body {
 }
 
 #carousel {
-    min-height: 100vh;
+    background-color: #fff4d5;
+}
+
+#cards .card {
+    height: 450px;
+}
+
+#cards {
+    background-color: #fffce0;
+}
+
+.card {
+    overflow: hidden;
+}
+
+footer {
+    background-color: black;
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
